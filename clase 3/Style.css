@@ -1,0 +1,26 @@
+body {
+    background-color: #ffc300;
+}
+h1 { 
+
+    background-color:darkgreen;
+    color:brown;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+p {
+    border: red 2px solid;
+    margin: 20px;
+  }
+
+  blockquote {
+      padding: 3px 10px;
+      border: powderblue 5px double;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+
+  html {
+      background-color:lightgray;
+  }

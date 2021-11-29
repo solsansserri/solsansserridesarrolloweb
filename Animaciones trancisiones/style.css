@@ -1,0 +1,35 @@
+h1{
+    animation-name:fuentecambio;
+    animation-duration: 5s;
+    text-align: center;
+    font-size: 20px;
+    animation-iteration-count: infinite;
+}
+@keyframes fuentecambio {
+    to {font-size: 25px;
+    }
+}
+body { 
+    background-color:green;
+    animation-name:animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+@keyframes animacion {
+    0% {background-color:yellowgreen}
+    50% {background-color: chartreuse;}
+    0% {background-color: darkgoldenrod;}
+}
+
+img {
+    width: 100px;
+    animation-name:modifimagen;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes modifimagen {
+    to {width: 200px;}
+}

@@ -28,6 +28,7 @@ img {
     animation-name:modifimagen;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    align-items: center;
 
 }
 @keyframes modifimagen {

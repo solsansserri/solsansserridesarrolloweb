@@ -6,7 +6,7 @@ h1{
     animation-iteration-count: infinite;
 }
 @keyframes fuentecambio {
-    to {font-size: 25px;
+    to {font-size: 40px;
     }
 }
 body { 
@@ -28,9 +28,23 @@ img {
     animation-name:modifimagen;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    align-content: center;
     align-items: center;
-
+    
 }
 @keyframes modifimagen {
     to {width: 200px;}
+}
+
+.imagenescentro {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    align-items: center;
+    top: 50%;
+    left: 40%;
+    position: relative;
+    
 }

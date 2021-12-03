@@ -1,18 +1,10 @@
-function mostrarMensaje() {
-
-    // var VARIABLE = ALGO_QUE_INGRESA_A_LA_VARIABLE
+function mostrarMensaje(parametro) {
+    parametro.preventDefault();
+    var mensaje = document.querySelector("#texto").value;
+    document.querySelector("#mensaje").textContent = mensaje;
+    console.log(mensaje);
     
-    var uno = document.querySelector("#uno").value;
-    var dos = document.querySelector("#dos").value;
-    
-    var resultado = parseFloat(uno)+parseFloat(dos);
-
-    mensaje = uno + " + " + dos + " = " + resultado;
-
-    document.querySelector("#mensaje").textContent = mensaje;    
-
 }
 
-var formulario = document.querySelector("#formulario");
-
+var formulario =document.querySelector("#formulario");
 formulario.addEventListener("input", mostrarMensaje);

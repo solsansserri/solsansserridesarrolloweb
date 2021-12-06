@@ -1,6 +1,13 @@
 function mostrarMensaje() {
-    var mensajes =document.getElementById("Apellidoynombre").value;
-    document.querySelector("h1").textContent = mensajes;
+   
+    var uno = document.querySelector("#Nombre").value;
+    var dos = document.querySelector("#Apellido").value;
+    
+    var resultado = parseFloat(uno, dos);
+
+    mensaje = dos, uno;
+
+    document.querySelector("#mensaje").textContent = mensaje;  
 }
 
 var formulario =document.querySelector("#formulario1");

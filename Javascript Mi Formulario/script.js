@@ -3,11 +3,9 @@ function mostrarMensaje() {
     var uno = document.querySelector("#Nombre").value;
     var dos = document.querySelector("#Apellido").value;
     
-    var resultado = parseFloat(uno, dos);
+    mensaje = dos + "," + " " + uno;
 
-    mensaje = dos, uno;
-
-    document.querySelector("#mensaje").textContent = mensaje;  
+    document.querySelector("#mensaje").textContent = mensaje;
 }
 
 var formulario =document.querySelector("#formulario1");
